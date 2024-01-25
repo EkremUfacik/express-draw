@@ -12,6 +12,12 @@ const io = new Server(server, {
   },
 });
 
+app.get("/", (req, res) => {
+  res.json({
+    message: "🦄🌈✨👋🌎🌍🌏✨🌈🦄",
+  });
+});
+
 io.on("connection", (socket) => {
   console.log(`Connected`);
   socket.on("disconnect", () => {
