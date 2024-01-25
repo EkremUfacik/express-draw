@@ -12,7 +12,7 @@ const io = new Server(server, {
   },
 });
 
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
   res.json({
     message: "hello world",
   });
