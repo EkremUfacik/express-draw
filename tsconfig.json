@@ -2,9 +2,7 @@
   "compilerOptions": {
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "baseUrl": "api",
     "sourceMap": true,
-    "outDir": "dist",
     "strict": true,
     "esModuleInterop": true
   },
