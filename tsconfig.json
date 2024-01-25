@@ -2,11 +2,11 @@
   "compilerOptions": {
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "baseUrl": "src",
+    "baseUrl": "api",
     "sourceMap": true,
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true
   },
-  "include": ["src/**/*"]
+  "include": ["api/**/*"]
 }
